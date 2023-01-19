@@ -1,3 +1,9 @@
+/*
+ * Created on Thu Jan 19 2023
+ *
+ * Copyright (c) 2023 Phoenix-Ceri Powell @ Rising Phoenix Media 
+ */
+
 // Packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');

@@ -1,3 +1,10 @@
+/*
+ * Created on Thu Jan 19 2023
+ *
+ * Copyright (c) 2023 Phoenix-Ceri Powell @ Rising Phoenix Media 
+ */
+
+
 const fs = require('fs');
 
 // Returns a license badge based on which license is passed in
