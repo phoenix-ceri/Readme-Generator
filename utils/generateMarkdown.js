@@ -1,11 +1,10 @@
 /*
  * Created on Thu Jan 19 2023
  *
- * Copyright (c) 2023 Phoenix-Ceri Powell @ Rising Phoenix Media 
+ * Copyright (c) 2023 Phoenix-Ceri Powell @ Rising Phoenix Media
  */
 
-
-const fs = require('fs');
+const fs = require("fs");
 
 // Returns a license badge based on which license is passed in
 // If there is no license, return an empty string
@@ -13,20 +12,22 @@ function renderLicenseBadge(license) {
   if (!license) {
     return ``;
   } else {
-    return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
+    return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(
+      license
+    )})`;
   }
 }
 
 // Returns the license link
 function renderLicenseLink(license) {
-  if (license === 'MIT') {
-    return `https://lbesson.mit-license.org/`
+  if (license === "MIT") {
+    return `https://lbesson.mit-license.org/`;
   }
-  if (license === 'GPL') {
-    return `http://perso.crans.org/besson/LICENSE.html`
+  if (license === "GPL") {
+    return `http://perso.crans.org/besson/LICENSE.html`;
   }
-  if (license === 'CC--0') {
-    return `https://creativecommons.org/licenses/by-nd/4.0` 
+  if (license === "CC--0") {
+    return `https://creativecommons.org/licenses/by-nd/4.0`;
   }
 }
 
@@ -37,7 +38,7 @@ function renderLicenseSection(license) {
     return ``;
   } else {
     return `## Licenses
-    This project is covered under the ${license} license. To learn more about what this means, click the license button at the top.`
+    This project is covered under the ${license} license. To learn more about what this means, click the license button at the top.`;
   }
 }
 
