@@ -33,7 +33,7 @@
 
   ## Questions
   Have questions about this project?  
-  GitHub: https://github.com/PhoenixCeri  
+  GitHub: https://github.com/phoenix-ceri  
   Email: Phoenixceri@protonmail.com
 
   ## Credits
