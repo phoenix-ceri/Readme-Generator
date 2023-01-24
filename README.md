@@ -19,6 +19,7 @@
   Install the files, then install inquirerer from node, create a dist file and a readme markdown, run node index, follow prompts
 
   ## Usage
+  [Sample](./sample/README.md)
   follow the prompts after using node index
   https://www.youtube.com/watch?v=FsYM-RRNSFM
 
